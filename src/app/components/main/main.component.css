@@ -1,0 +1,12 @@
+#centerContent {
+    text-align: center;
+}
+thead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+thead tr th {
+    padding-left: 4em;
+    padding-right:4em;
+}

@@ -1,0 +1,10 @@
+#navbarText   {
+    display: flex; justify-content: flex-end;
+}
+span {
+    font-size: 20px;
+    
+}
+nav a {
+    font-size: 24px;
+}

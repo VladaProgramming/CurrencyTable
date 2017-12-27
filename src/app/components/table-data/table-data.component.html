@@ -1,0 +1,11 @@
+<th scope="row"></th>
+<td>
+  <button (click)="edit($event)" class="btn btn-primary">Edit</button>
+  <button (click)="removeCurrency(value)" class="btn btn-danger">Delete</button>
+</td>
+<td>
+  <textarea readonly [(ngModel)]='value.name' class="notEditable">{{name}}</textarea>
+</td>
+<td>
+  <textarea readonly [(ngModel)]='value.symbol' class="notEditable">{{symbol}}</textarea>
+</td>
